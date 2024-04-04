@@ -1,4 +1,4 @@
-package ui.components.ColorItem
+package com.topic2.android.notes.ui.components.ColorItem
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.layout.*
@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.topic2.android.notes.domain.model.ColorModel
 import com.topic2.android.notes.util.fromHex
-import ui.components.NoteColor
+import com.topic2.android.notes.ui.components.NoteColor
 
 @Composable
 private fun ColorPicker(
